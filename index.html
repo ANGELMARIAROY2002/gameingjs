@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balloon Shooting Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Balloon Shooting Game</h1>
+    <button id="start-btn">Start Game</button>
+    <button id="stop-btn" disabled>Stop Game</button>
+    <div id="score-board">
+      <p>Score: <span id="score">0</span></p>
+    </div>
+    <div id="balloon-container"></div>
+    <div id="game-over-section" hidden>
+      <h2>Game Over!</h2>
+      <p>Your final score is: <span id="final-score"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
